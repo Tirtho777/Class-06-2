@@ -1,0 +1,36 @@
+    * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 100px;
+            margin-left: 150px;
+            justify-content: center;;
+            background-color: #2c3e50;
+        }
+
+        /* বোর্ড কন্টেইনার */
+        .chessboard {
+            width: 1000px;
+            height: 1000px;
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: repeat(8, 1fr);
+            border: 10px solid #34495e;
+            box-shadow: 0 20px 25px rgba(0, 0, 0, 0.9);
+        }
+
+        /* ঘরের রঙ */
+        .white {
+            background-color: #f0d9b5;
+        }
+
+        .black {
+            background-color: #b58863;
+        }
+        .guti{
+            margin-top: 25px;
+            margin-left: 25px;
+            font-size: 65px;
+        }
